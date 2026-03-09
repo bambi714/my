@@ -1,5 +1,5 @@
 # 아이... 다운로드 방법
-## 0. ffmpeg 사전 다운  👉️ [다운로드 방법](https://github.com/bambi0714/my/tree/main/doc/ffmpeg)
+## 0. ffmpeg 사전 다운(영상 다운시)  👉️ [다운로드 방법](https://github.com/bambi0714/my/tree/main/doc/ffmpeg)
 ## 목차
 <!-- TOC start -->
  * [영상 다운](#영상-다운)
@@ -8,7 +8,7 @@
 
 ## 영상 다운
 ### 1. 영상 페이지로 가서 F12 -> Consle 창으로 이동
-콘솔 창 `>` 에 `allow pasting` 입력 후 엔터
+콘솔 창 `>` 에 `allow pasting` 입력 후 엔터 (복사 붙여넣기로 하면 안됨... 수기로 입력)
 <img width="934" height="90" alt="image" src="https://github.com/user-attachments/assets/792600c7-4820-4219-97cb-2df6676198f3" />
 
 ### 2. m3u8 파일 다운로드
