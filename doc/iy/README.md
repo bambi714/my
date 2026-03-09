@@ -1,4 +1,4 @@
-# 아이☆치이 다운로드 방법
+# 아이... 다운로드 방법
 ## 0. ffmpeg 사전 다운  👉️ [다운로드 방법](https://github.com/bambi0714/my/tree/main/doc/ffmpeg)
 ## 목차
 <!-- TOC start -->
