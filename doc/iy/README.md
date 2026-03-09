@@ -55,7 +55,7 @@ ${fullUrl}
 ffmpeg -protocol_whitelist file,http,https,tcp,tls -i "파일제목.m3u8" -c copy -bsf:a aac_adtstoasc -c:s mov_text -metadata:s:s:0 language=ko -threads 4 -reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 2 "파일제목.mp4"
 ```
   - 만약 CPU 성능이 너무 안좋아 PC가 버벅거리면 cntrl + c 키를 입력 다운로드를 중단한 후 `-threads 4` 부분의 숫자를 2로 줄여 다운로드하기
-  * 다운로드시 아이☆치이는 uuid(사용자식별ID값)을 사용해 영상을 불러옴. 그래서 위의 명령어는 빠르게 다운로드 영상을 요청하는 방식으로, 영상을 많이 다운로드시 비정상적인 사용자로 인식할 수 있음... 
+  * 다운로드시 uuid(사용자식별ID값)을 사용해 영상을 불러옴. 그래서 위의 명령어는 빠르게 및 여러번 다운로드 영상을 요청하는 방식으로 영상을 많이 다운로드 시 비정상적인 사용자로 인식하여 계정 정지 될 수 있음
 
 ## 자막 다운
 - 한국어 자막을 원할 경우 그대로 두고 만약 다른 나라 자막을 을 원하면 아래 스크립트에서 "if (sub._name !== "한국어") continue;"부분의 `한국어`를 `원하는자막의나라`로 변경. (한국 계정이 아니라 글로벌 계정이면 `Korean`처럼 영어로 입력)
