@@ -59,8 +59,7 @@ ffmpeg -protocol_whitelist file,http,https,tcp,tls -i "파일제목.m3u8" -c cop
 
 ## 자막 다운
 - 한국어 자막을 원할 경우 그대로 두고, 만약 영어 자막을 원하면 아래 스크립트에서 "if (sub._name !== "한국어") continue;"에서 `한국어`를 `영어`로 변경.
-- "https://meta.video.iqiyi.com/" 
-- 파일제목을 m3u8와 똑같이 변경
+- `"파일제목.vtt"` 을 "원하는파일제목명.vtt"로 변경
 ```
 (async () => {
   const subtitles =
@@ -71,7 +70,7 @@ ffmpeg -protocol_whitelist file,http,https,tcp,tls -i "파일제목.m3u8" -c cop
     if (!sub.webvtt) {
       alert("Unable to get subtitle file.");
     }
-    const url = new URL(sub.webvtt, "https://meta.video.아이☆치이.com/");
+    const url = new URL(sub.webvtt, "https://meta.video.iqiyi.com/");
     output = url.href;
   }
   const response = await fetch(output);
