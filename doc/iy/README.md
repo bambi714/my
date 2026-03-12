@@ -47,7 +47,7 @@ ${fullUrl}
 
 ### 3. m3u8 -> mp4로 다운로드
 1. 다운로드한 m3u8 파일을 ffmpeg.exe가 있는 폴더로 이동 (시스템 환경 설정했으면 아무데나 가능)
-2. 해당 폴더경로로 PowerShell 또는 CMD 열기
+2. 해당 폴더경로로 PowerShell 또는 CMD 열기 (mac은 터미널에서)
    - CMD 여는 법 : win + r 로 cmd 입력 후 엔터 ->뜨는 창에 `cd 이동할폴더경로(ex C:\Users\userName\Downloads)` 입력 후 엔터
      - 만약 이동할 폴더가 C드라이브가 아니면 `이동할드라이브명:`임력 후 입력 (ex D드라이브면의 ffmpeg폴더면 `D:`입력 후 엔터 -> `cd D:\ffmpeg`입력 후 엔터
 3. 아래 명령어 입력 
